@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.warning {
+  background-color: yellow;
+}
+.error {
+  background-color: red;
+}
+table {
+  margin: auto;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+img {
+  width: 350px;
+  height: 200px;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10,
+.item-11,
+.item-12,
+.item-13 {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
